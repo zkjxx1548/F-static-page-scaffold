@@ -18,3 +18,128 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  background-color: #3d5c99;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.web-logo {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+.register-btn {
+  height: 30px;
+  margin-left: 10px;
+  padding: 7px 10px;
+  background-color: #44b72b;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+}
+
+.header-right {
+  /* margin: auto 0; */
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header-right .icon {
+  height: 0;
+  width: 0;
+  margin-left: 8px;
+  position: relative;
+  top: 5px;
+  border: 5px solid transparent;
+  border-top: 5px solid white;
+}
+
+.main {
+  background-color: #e8ebee;
+  padding: 30px 200px 100px 200px;
+}
+
+.main .login-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main .login-brief {
+  padding-top: 15px;
+}
+
+.home-page-types {
+  margin-top: 60px;
+  display: flex;
+}
+
+.home-page-types .page-type {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 35px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.home-page-types .page-type:first-child {
+  margin-right: 20px;
+}
+
+.home-page-types .page-type .type-img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.home-page-types .page-type .type-title {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home-page-types .page-type .type-brief {
+  margin-top: 15px;
+  color: #989da5;
+}
+
+.home-page-types .page-type .type-btn {
+  margin-top: 100px;
+  align-self: center;
+  width: 46px;
+  padding: 3px 0;
+  background-color: #f5f6f7;
+  border: 1px solid #e5e8eb;
+  border-radius: 3px;
+}
